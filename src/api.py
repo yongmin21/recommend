@@ -8,7 +8,7 @@ class DataApi:
             'Content-Type' : 'application/json'
             }
         self._timeout = 5
-        self._url = f"http://ec2-3-137-69-122.us-east-2.compute.amazonaws.com:8080/api/{body}"
+        self._url = f"http://server/api/{body}"
 
     @property
     def url(self):
